@@ -17,3 +17,9 @@ Description
 Preview
 -------
 ![sample]()
+
+Contact
+-------
+tel: +7 (911) 395-34-25  
+telegram: [@il_osipov](https://t.me/il_osipov)  
+e-mail: il.osipov.gm@gmail.com
