@@ -36,6 +36,17 @@
 
             </ImageView>
 
+            <ImageView
+                android:id="@+id/icon_used"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top|start"
+                android:visibility="gone"
+                android:src="@drawable/ic_used"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+
             <TextView
                 android:id="@+id/name_machine"
                 android:layout_width="wrap_content"

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Machines</string>
+
+    <string name="location_text">Местонахождение: %s</string>
+    <string name="producing_text">Страна производитель: %s</string>
+    <string name="producer_text">Производитель: %s</string>
+    <string name="sizes_text">Размер: %sx%sx%s мм</string>
+    <string name="condition_text">Состояние: %s</string>
+    <string name="exist_text">Наличие: %s</string>
+    <string name="exist_null">unknown</string>
+    <string name="btn_basket">в корзину</string>
+    <string name="toast_basket">%s добавлен в корзину</string>
+    <string name="empty_text">идёт загрузка..</string>
+
 </resources>

@@ -33,7 +33,11 @@ data class Machine(
     @SerializedName("z")
     var depth : Int = 0,
     @SerializedName("video1")
-    var photo : String = "") {
+    var photo : String = "",
+    @SerializedName("condition1")
+    var condition : String = "",
+    @SerializedName("exist")
+    var exist : String = "") {
 
     override fun equals(other: Any?): Boolean {
         if (this === other) return true

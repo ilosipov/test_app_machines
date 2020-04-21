@@ -48,6 +48,7 @@ class RequestLathe {
 
                 override fun onError(error: Throwable) {
                     error.printStackTrace()
+
                 }
             })
     }

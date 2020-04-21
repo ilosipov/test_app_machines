@@ -34,9 +34,17 @@ class MachineAdapter(private var context: Context,
 
         holder.itemView.setOnClickListener { listener.onClick(position) }
 
+        val imageUsed = holder.itemView.findViewById<ImageView>(R.id.icon_used)
+        if (machine.condition == "used") {
+            imageUsed.visibility = View.VISIBLE
+        } else {
+            imageUsed.visibility = View.GONE
+        }
         val image = holder.itemView.findViewById<ImageView>(R.id.image_machine)
         if (machine.photo.isNotEmpty()) {
-            Picasso.get().load(machine.photo).error(R.drawable.ic_error_image).into(image)
+            Picasso.get().load(machine.photo).error(R.drawable.empty).into(image)
+        } else {
+            image.setImageResource(R.drawable.empty)
         }
 
         val nameMachine = holder.itemView.findViewById<TextView>(R.id.name_machine)

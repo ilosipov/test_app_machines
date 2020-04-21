@@ -15,7 +15,10 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="UnusedAttribute">
-        <activity android:name=".activity.MainActivity">
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="sensorPortrait"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +27,9 @@
         </activity>
         <activity
             android:name=".activity.DetailActivity"
-            android:parentActivityName=".activity.MainActivity">
+            android:screenOrientation="sensorPortrait"
+            android:parentActivityName=".activity.MainActivity"
+            tools:ignore="LockedOrientationActivity">
         </activity>
     </application>
 
